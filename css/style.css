@@ -1,0 +1,159 @@
+body{
+	background-image: url("../images/space.jpeg");
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	color: #fefffa;
+
+}
+p{
+	font-size: 20px;
+}
+h2{
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 30px;
+}
+h1,
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+ul{
+	list-style: none;
+	padding: 0px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+li{
+	display: inline-block;
+	padding-left: 20px
+}
+.pic{
+	margin-bottom: 100px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	width: 100%;
+	background-color: rgba(0,0,0,.5);
+	border-radius: 10px;
+}
+.pic img{
+	width: 98%;
+	display: block;
+	margin-left:  auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+#resp img{
+	width: 33%;
+}
+#nav a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: #fefffa;
+
+
+}
+#top{
+	position: absolute;
+	top: 0px;
+}
+#me,
+#tag{
+	text-align: center;
+}
+#nav{
+	position: fixed;
+	top: 10px;
+	width: 100%;
+	left: 0px;
+	background-color: rgba(0,0,0,.5);
+
+}
+#two,
+#three{
+	margin-top: 100px;
+}
+
+#three{
+	margin-bottom: 200px;
+}
+div{
+	width: 100%;
+}
+#one,
+#three{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	width: 50%;
+}
+
+
+#one{
+	margin-top: 100px;
+}
+
+	
+#sites{
+width: 95%;
+margin: auto;
+}
+
+#work{
+	text-align: center;
+}
+
+#two{
+	width: 90%;
+	margin: auto;
+	background-color: #fefffa;
+	color: #46464D;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	border-radius: 2px;
+}
+#sites{
+	  display: table;
+      margin-top: 50px;
+
+}
+
+#sites a{
+	color: #46464D;
+}
+.site1,
+.site2{
+	display: table-cell;
+	width: 40%;
+}
+.site1{
+	padding-right: 5%;
+}
+.site2{
+	padding-left: 5%;
+}
+
+#tag{
+	font-style: italic;
+	font-family: 'Shadows Into Light', cursive;
+}
+img{
+	width: 100%;
+}
+#logo{
+	width: 50%;
+	border-radius: 50%;
+	margin-left: 25%;
+	border: dashed 5px #fefffa;
+}
+#skinny{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: auto;
+	width: 80%;
+	margin-top: 100px;
+}
+#skinny a{
+	color: inherit;
+}
