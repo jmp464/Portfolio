@@ -9,6 +9,9 @@ body{
 	color: #fefffa;
 
 }
+div{
+	width: 100%;
+}
 p{
 	font-size: 20px;
 }
@@ -30,6 +33,10 @@ li{
 	display: inline-block;
 	padding-left: 20px
 }
+img{
+	width: 100%;
+}
+
 .pic{
 	margin-bottom: 100px;
 	padding-top: 1%;
@@ -78,9 +85,7 @@ li{
 }
 
 
-div{
-	width: 100%;
-}
+
 #one{
 	display: block;
 	margin-right: auto;
@@ -156,15 +161,14 @@ margin: auto;
 width: 90%;
 margin: auto;
 display: block;
+border-radius: 2px;
 }
 
 #tag{
 	font-style: italic;
 	font-family: 'Shadows Into Light', cursive;
 }
-img{
-	width: 100%;
-}
+
 #logo{
 	width: 50%;
 	border-radius: 50%;
