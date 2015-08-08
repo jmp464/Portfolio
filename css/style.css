@@ -1,249 +1,106 @@
-html,body
-{
-    overflow-x: hidden; 
+#tall{
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin-top: -50px;
 }
-body{
-	background-image: url("../images/space.jpeg");
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
-	color: #fefffa;
+.folio{
+  width: 100%;
+}
+.teal{
+  color:color:#e53935;;
+}
+.live{
+  position: relative;
+  right: 0px;
 
+  z-index: 4;
 }
-div{
-	width: 100%;
+.panel-heading a{
+  color:#e0f7fa;;
 }
-p{
-	font-size: 20px;
+#centerme{
+  color: #ffcd22;
+  vertical-align: center;
+  z-index: 3;
 }
-h2{
-	font-family: 'Shadows Into Light', cursive;
-	font-size: 30px;
+#margin-top{
+  margin-top: 50px;
 }
-h1,
-p{
-	font-family: 'Montserrat', sans-serif;
+#maillogo{
+  width: 50%;
 }
-ul{
-	list-style: none;
-	padding: 0px;
-	margin-bottom: 10px;
-	margin-top: 10px;
+#jimmy, #jimtoggle{
+  border-radius: 50%;
+  border: solid 2px teal;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
 }
-li{
-	display: inline-block;
-	padding-left: 20px
+#jimtoggle{
+  display: inline-block;
 }
-img{
-	width: 100%;
+.nobreak{
+  display: inline;
+    margin-right: 15px;
 }
-
-.pic{
-	margin-bottom: 100px;
-	padding-top: 1%;
-	padding-bottom: 1%;
-	width: 100%;
-	background-color: rgba(0,0,0,.5);
-	border-radius: 10px;
-}
-.pic img{
-	width: 98%;
-	display: block;
-	margin-left:  auto;
-	margin-right: auto;
-	border-radius: 10px;
-}
-#resp img{
-	width: 33%;
-}
-#nav a{
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
-	text-decoration: none;
-	color: #fefffa;
-}
-#nav ul{
-	margin-left: 6.25%;
-}
-#top{
-	position: absolute;
-	top: 0px;
-}
-#me,
-#tag{
-	text-align: center;
-}
-#nav{
-	position: fixed;
-	top: 10px;
-	width: 100%;
-	left: 0px;
-	background-color: rgba(0,0,0,.5);
-
-}
-#two{
-	margin-top: 100px;
-}
+#me{
+  width: 35px;
+  display: inline;
 
 
-
-#one{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: auto;
-	width: 50%;
+}
+i, .red{
+  color:#e53935;
 }
 
-
-#one{
-	margin-top: 100px;
+footer{
+  margin-left: 2.5%;
 }
+.underline{text-decoration: none;}
+.underline:hover, .underline:focus{color:#e53935; text-decoration: none;}
 
-	
-.sites{
-width: 95%;
-margin: auto;
-}
 
-#work{
-	text-align: center;
-}
-
-#two{
-	width: 90%;
-	margin: auto;
-	background-color: #fefffa;
-	color: #46464D;
-	padding-bottom: 50px;
-	padding-top: 50px;
-	border-radius: 2px;
-}
-.sites{
-	  display: table;
-      margin-top: 50px;
+@media (min-width:992px){
+  #jimmy{
+    width:100%;
+    display: inline;
+  }
+  #jimtoggle{
+    display: none;
+  }
+  #me{
+    width: 20%;
+  }
+  #tall{
+    position: fixed;
+    margin-top: -50px;
+    left: -5px;
+    width:33%;
+    height:100%;
+  }
+  #break{
+    position: relative;
+    top: 5%;
+    left:35%;
+    width:150px;
+  }
+  footer{
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    z-index: 2;
+  }
+  footer a{
+    color: #e0f7fa;
+  }
+  footer a:hover, footer a:focus{
+    color:#e53935;
+    text-decoration: none;
+  }
 
 }
 
-.sites a{
-	color: #46464D;
-}
-.site1,
-.site2,
-.proc1,
-.proc2{
-	display: table-cell;
-	width: 40%;
-}
-.site1,
-.proc1{
-	padding-right: 5%;
-}
-.site2,
-.proc2{
-	padding-left: 5%;
-}
-.proc1 img,
-.proc2 img{
-	display: block;
-	width: 60%;
-	margin: auto;
-}
-#piccolumn{
-	display: table;
-}
-#pic1,
-#pic2{
-	width: 50%;
-	display: table-cell;
-}
-#pic1 img,
-#pic2 img{
-width: 90%;
-margin: auto;
-display: block;
-border-radius: 2px;
-}
 
-#tag{
-	font-style: italic;
-	font-family: 'Shadows Into Light', cursive;
-}
 
-#logo{
-	width: 50%;
-	border-radius: 50%;
-	margin-left: 25%;
-	border: dashed 5px #fefffa;
-}
-#skinny,
-#four,
-#five{
-	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: auto;
-	width: 80%;
-	margin-top: 100px;
-}
-#skinny a{
-	color: inherit;
-}
-#fourcol{
-	display: table;
-}
-.fourcol{
-	display: table-cell;
-	width: 20%;
-	padding-left: 2.5%;
-	padding-right: 2.5%;
-}
-#cr{
-	position: relative;
-	bottom: 50px;
-	left: 60%;
-}
-#five{
-	margin-bottom: 25px;
-	padding-bottom: 0px;
-}
-#four{
-	background-color: rgba(0,0,0,.5);
-	background-size: 100% 100%;
-	padding-right: 5%;
-	
-	border-radius: 2px;
-
-}
-#four h1{
-	padding-left: 2.5%;
-	padding-top: 1%
-}
-.workpage p{
-	width: 80%;
-	margin: auto;
-	padding-bottom: 20px;
-}
-#three{
-	display: table;
-	width: 80%;
-	margin: auto;
-}
-#jimmy{
-	display: table-cell;
-	width: 30%;
-	margin: auto;
-}
-#jimmy img{
-	border-radius: 50%;
-	border: solid 2px #fefffa;
-	display: block;
-	width: 50%;
-	position: relative;
-	bottom: -200px;
-	left: 10%;
-	z-index: -20;
-}
-#abot{
-	display: table-cell;
-	width: 65%;
-}
